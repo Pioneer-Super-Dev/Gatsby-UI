@@ -1,0 +1,44 @@
+.users__registration__container {
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100vh - 90px);
+    align-items: center;
+	flex: 85;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.users__registration__container > input {
+    width : 60%;
+    font-size: inherit;
+    line-height: 1.4em;
+}
+.users__registration__container > .playlist__add__entry {
+    width: 35%;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 3px;
+    margin: 5px 0;
+}
+
+.users__registration__container > .error__message{
+    width: 75%;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 5px 0;
+}
+.users__registration__container > .success__message{
+    width: 75%;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 5px 0;
+}

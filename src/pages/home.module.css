@@ -1,0 +1,31 @@
+.home__container {
+    background: url("../images/blue_background.png");
+    background-size: contain;
+    height: 100vh;
+    width: 100vmax;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__buttons__container {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+.home__buttons-container > .home__button__row {
+    flex: 1;
+    width: 450px;
+}
+
+.home__playlist-color {
+    color: #00b293;
+}
+.home__users-color {
+    color: #ff4343;
+}
+.home__media-color {
+    color: #e7ad47;
+}

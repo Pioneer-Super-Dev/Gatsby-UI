@@ -1,0 +1,15 @@
+.login__copyrights {
+    flex: 2;
+    align-items: center;
+    display: flex;
+    flex-direction: column  ;
+    /* margin-bottom: auto; */
+}
+.login__copyrights > p {
+    color: #fff;
+    margin: 2px 0;
+    font-size: 13px;
+}
+.login__copyrights > p:last-child {
+    margin-top: 0;
+}

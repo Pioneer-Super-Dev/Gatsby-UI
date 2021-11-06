@@ -1,0 +1,72 @@
+.takeover__container {
+    padding: 20px;
+    width: 100%;
+    flex-basis: 66%;
+
+    display: flex;
+    flex-direction: row;
+    flex : 3;
+    flex-shrink: 0;
+}
+.takeover__container p {
+    margin-bottom: 0;
+}
+.takeover__container> .takeover__leftitem{
+    display:  flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.takeover__label {
+    color: #707070;
+    font-size: 18px;
+}
+.takeover__image {
+    width: 75%;
+    margin-left: -9%
+}
+.takeover__text {
+    width: 67%;
+    color: #707070;
+}
+.takeover__button__container {
+    padding-bottom: 20px;
+    justify-content: flex-end;
+    flex-basis: 33%;
+
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    flex-shrink: 0;
+    align-items: center;
+}
+.takeover__button__container > .takeover__button__text__container {
+    width: 60%;
+    color: #707070;
+}
+.takeover__button__container > .takeover__button__text__container > p {
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+.takeover__overflow {
+    width: 100%;
+    overflow: auto;
+}
+.takeover__submit {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    flex-direction: row;
+}
+.takeover__screenshot {
+    align-self: center;
+    margin-bottom: 0.8rem;
+}
+.takeover__gap {
+    height : 70px;
+}

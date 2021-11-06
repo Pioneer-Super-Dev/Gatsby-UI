@@ -1,0 +1,47 @@
+.playlist{
+    flex: 17;
+	 overflow: auto;
+	 width: 90%;
+
+	 display: flex;
+	 flex-direction: column;
+}
+
+.playlist> .playlist__item{
+    flex-shrink: 0;
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+	 border: 1px solid #ccc;
+	 margin-bottom: 30px;
+
+	 display: flex;
+	 flex-direction: column;
+
+     margin-top: 2em;
+}
+.playitems__edit__add__donor{
+	height: 35px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 0;
+    width: 60%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-shrink: 0;
+}
+.playitems__edit__add__donor> button{
+	flex-shrink: 0;
+    background-image: url("../images/add.png");
+    width: 180px;
+    background-size: 12px;
+    background-position: 30px 50%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border: none;
+    background-color: #9dc44d;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+}

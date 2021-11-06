@@ -1,0 +1,96 @@
+.users__edit__add__donor {
+    height: 35px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: (100% - 90%) / 2;
+    width: 60%;
+
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+.users__edit__add__donor> .user__add__button {
+    background-color: #9dc44d;
+	 border-radius: 5px;
+	 align-items: center;
+	 height: 40px;
+	 box-shadow: 0px 0px 58px -20px rgba(0, 0, 0, 0.46);
+	 cursor: pointer;
+
+	 display: flex;
+	 flex-direction: row;
+	 margin-right: 20px;
+}
+.users__edit__add__donor> .user__add__button> .link__button{
+    font-size: 13px;
+	 color: white;
+	 padding: 0 10px;
+	 margin: 0;
+}
+.users__edit__add__donor> .user__add__button> .icon {
+    height: 11px;
+	 width: 11px;
+	 margin-left: 10px;
+	 background: url("../images/add.png");
+}
+.users__edit__table{
+    /* overflow: auto; */
+    margin-top: 20px;
+    width: 90%;
+    overflow-y: auto;
+}
+.users__edit__table__header {
+    width: 90%;
+    margin-top: 20px;
+    height: 35px;
+    background-color: #EBEBEB;
+    border-right:  solid #BDBDBD;
+    display: flex;
+    flex-direction: row;
+}
+
+.users__edit__table__header>.users__edit__table__item {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 35px;
+    border-left: solid #BDBDBD;
+    border-top: solid #BDBDBD;
+    background-color: #EBEBEB;
+    /* padding-right: 1px; */
+}
+
+.users__edit__table__row>.users__edit__table__item {
+    color: #77787b;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-top: solid #BDBDBD;
+    border-left: solid #BDBDBD;
+}
+.users__edit__table__body {
+    width: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.users__edit__table__body .users__edit__table__row:nth-child(odd) {
+    background-color: white;
+}
+.users__edit__table__body .users__edit__table__row:nth-child(even) {
+    background-color: white;
+}
+
+.users__edit__table__body> .users__edit__table__row {
+    flex-shrink: 0;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+}
+.users__edit__table__row > .img__button {
+    cursor: pointer;
+  }

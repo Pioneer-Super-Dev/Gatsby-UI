@@ -1,0 +1,184 @@
+
+
+
+/* .part__screen__container{
+    height: calc(100vh - 90px);
+    align-items: center;
+    display: flex;
+} */
+ .donors__CSV__upload {
+	 flex: 3;
+	 justify-content: flex-end;
+	 align-items: center;
+	 width: 90%;
+
+	 display: flex;
+	 flex-direction: row;
+	 flex-shrink: 0;
+	 min-width: max-content;
+}
+ .donors__CSV__upload > .donors__CSV__button {
+	 background-color: #2277ff;
+	 border-radius: 15px;
+	 align-items: center;
+	 height: 40px;
+	 cursor: pointer;
+	 display: flex;
+	 flex-direction: row;
+	 margin-right: 20px;
+	 color:rgb(0, 255, 128);
+	 box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+				0 -0.25rem 1.5rem rgba(22,75,195,0.50) inset,
+				0 0.75rem 0.5rem rgba(22,75,195,0.50) inset,
+				0 0.25rem 0.5rem 0 rgba(22,75,195,0.50) inset;
+}
+.donors__CSV__upload > .donors__CSV__button:hover{
+	/* background-color: #2277ff; */
+	background-color: blue;
+	color:white ;
+} 
+/*.donors__CSV__upload > .donors__CSV__button:focus{
+	animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+} */
+ .donors__CSV__upload > .donors__CSV__button > p {
+	 font-size: 15px;
+	 padding: 0 10px;
+	 margin: 0;
+	 font-family: cursive;
+	 font-weight: 400;
+}
+.donors__CSV__upload > .donors__CSV__button > p:hover{
+	color: white;
+}
+ .donors__CSV__upload > .donors__CSV__button > .icon {
+	 height: 15px;
+	 width: 20px;
+	 margin-left: 10px;
+	 background: url("../images/upload.png");
+}
+ .donors__list {
+	 flex: 17;
+	 overflow: auto;
+	 width: 90%;
+
+	 display: flex;
+	 flex-direction: column;
+}
+ .donors__list > .donors__list__item {
+	 flex-shrink: 0;
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+	 border: 1px solid #ccc;
+	 margin-bottom: 30px;
+
+	 display: flex;
+	 flex-direction: column;
+}
+ .donors__list__item__header {
+	 height: 50px;
+	 background-color: #0a58ca;
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+	 align-items: center;
+	 padding: 0 15px;
+
+	 display: flex;
+	 flex-direction: row;
+}
+ .donors__list__item__header > .donors__list__item__title {
+	 flex: 9;
+	 color: #fff;
+	 margin: 0;
+	 font: small-caps bold 16px/2 cursive;
+	 font-family: Verdana
+}
+.donors__list__item__header > .deleteButton{
+	flex: 1;
+	background: url("../images/delete.png");
+	height: 31px;
+	 max-width: 31px;
+	 outline: none;
+	 border: none;
+	 cursor: pointer;
+	 background-repeat: no-repeat;
+  	background-size: cover;
+}
+ .donors__list__item__header > .linkbutton {
+	 flex: 1;
+	 background: url("../images/donor_edit.png");
+	 height: 31px;
+	 max-width: 31px;
+	 outline: none;
+	 border: none;
+	 cursor: pointer;
+	 margin-right: 1em;
+}
+ .donors__list__item__info {
+	 padding: 15px;
+	 box-shadow: 3px 4px 10px ;
+}
+ .donors__list__item__info > p {
+	 color: black;
+	 margin: 0 10px;
+	 font-family: serif;
+	 font-weight: 500;
+	 font-size: 1.2em;
+}
+ .donors__edit__list__title {
+	 margin-top: 20px;
+	 height: 50px;
+	 background-color: #0081c8;
+	 border-radius: 7px;
+	 align-items: center;
+	 padding: 0 15px;
+	 width: 80%;
+}
+
+ 
+ .donors__edit__table-header {
+	 width: 80%;
+	 margin-top: 20px;
+	 height: 35px;
+	 background-color: #0081c8;
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+}
+ .donors__edit__table-header > .donors__edit__table-item {
+	 color: white;
+}
+ .donors__edit__table-item {
+	 display: flex;
+	 align-items: center;
+	 font-size: 14px;
+}
+ .donors__edit__table-item.center {
+	 justify-content: center;
+}
+ .donors__edit__table-item i.fa {
+	 font-size: 17px;
+}
+ .donors__edit__table-body {
+	 width: 90%;
+	 overflow: auto;
+}
+ .donors__edit__table-body > .donors__edit__table-row {
+	 flex-shrink: 0;
+	 height: 40px;
+}
+ .donors__edit__table-body > .donors__edit__table-row .donors__edit__table-item {
+	 flex-shrink: 0;
+	 color: #77787b;
+}
+ .donors__edit__table-body > .donors__edit__table-row i.fa {
+	 cursor: pointer;
+}
+ .donors__CSV__button.download-button {
+	 margin-right: 20px;
+}
+ .donors__CSV__button.download-button > .icon {
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background: url("../images/download.png");
+}
+ 

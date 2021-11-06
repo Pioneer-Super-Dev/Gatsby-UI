@@ -1,0 +1,37 @@
+.left__bar {
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+
+    flex: 15;
+    flex-basis: 0;
+    min-width: 220px;
+  }
+
+  .sunnybrook__logo {
+    background: url("../images/sunnybrook_foundation_white.png");
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    min-height: 85px;
+    background-size: contain;
+    background-position-x: 50%;
+  }
+
+  .left__bar__description__container {
+    flex-basis: calc(100vh - 90px - 85px - 50px);
+    justify-content: center;
+    overflow-y: auto;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left__bar__description {
+    color: white;
+    width: 90%;
+    font-size: 16px;
+    font-family: arial;
+    font-stretch: wider;
+}

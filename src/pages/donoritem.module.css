@@ -1,0 +1,104 @@
+.donors__edit__list__title {
+    margin-top: 20px;
+    height: 50px;
+    background-color: #0a58ca;
+    border-radius: 7px;
+    align-items: center;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+.donors__edit__list__title> .donors__edit__title__box> input{
+    width : 60%;
+    font-size: inherit;
+    line-height: 1.4em;
+}
+.donors__edit__list__title> .donors__edit__title__box {
+    flex: 9;
+    color: #fff;
+    /* margin: 0; */
+    margin-left: 15px;
+}
+.donors__edit__list__title> .donors__edit__title__box > input {
+    width: 40%;
+}
+.donors__edit__list__title> button {
+    flex: 1;
+    background: url("../images/donor_edit.png");
+    height: 31px;
+    max-width: 31px; 
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.donors__edit__list__title> button.deleteButton {
+    background: url("../images/delete-w1.png");
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.donors__edit__list__title> button.saveButton {
+    background: url("../images/save-solid.svg");
+    background-size: 31px 31px;
+    background-repeat: no-repeat;
+}
+
+.donors__edit__add__donor {
+    height: 35px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 0;
+    width: 60%;
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+.donors__edit__add__donor > .donors__edit__add__name {
+    flex: 4;
+    margin-right: 10px;
+    padding-left: 10px;
+    background-color: '#FFFEF7'
+}
+.donors__edit__add__donor > .donors__edit__add__letter {
+    flex: 1;
+    margin: 0 10px;
+    width: 60px;
+    text-align: center;
+    background-color: '#FFFEF7'
+}
+
+.donors__edit__add__donor > button {
+    flex-shrink: 0;
+    background-image: url("../images/add.png");
+    width: 180px;
+    background-size: 12px;
+    background-position: 30px 50%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border: none;
+    background-color: #9dc44d;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.donors__edit__add__donor.only-button {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.donors__edit__add__donor.only-button > button {
+    flex: none;
+}
+.users__edit__table__item> button{
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    margin: 2px;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    outline: none;
+}

@@ -1,0 +1,14 @@
+.home__button {
+    flex: 1;
+    margin: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+    cursor: pointer;
+    box-shadow: 8px 11px 60px -10px rgba(0, 0, 0, 0.5);
+    width: 205px;
+    height: 140px;
+}
